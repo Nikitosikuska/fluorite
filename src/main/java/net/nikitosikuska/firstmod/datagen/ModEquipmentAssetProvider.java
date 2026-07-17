@@ -28,6 +28,7 @@ public class ModEquipmentAssetProvider implements DataProvider {
         consumer.accept(ModArmorMaterials.FLUORITE_KEY,
                 EquipmentClientInfo.builder()
                         .addHumanoidLayers(Identifier.fromNamespaceAndPath(FirstMod.MOD_ID, "fluorite"))
+                        .addLayers(EquipmentClientInfo.LayerType.HORSE_BODY, new EquipmentClientInfo.Layer(Identifier.fromNamespaceAndPath(FirstMod.MOD_ID, "fluorite")))
                         .build());
     }
 

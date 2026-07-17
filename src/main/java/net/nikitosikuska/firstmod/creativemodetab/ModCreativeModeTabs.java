@@ -27,6 +27,7 @@ public class ModCreativeModeTabs {
             output.accept(ModItems.FLUORITE_CHESTPLATE);
             output.accept(ModItems.FLUORITE_LEGGINGS);
             output.accept(ModItems.FLUORITE_BOOTS);
+            output.accept(ModItems.FLUORITE_HORSE_ARMOR);
             output.accept(ModBlocks.RAW_FLUORITE_BLOCK);
             output.accept(ModBlocks.RAW_FLUORITE_STAIRS);
             output.accept(ModBlocks.RAW_FLUORITE_SLAB);

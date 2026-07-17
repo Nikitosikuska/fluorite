@@ -173,6 +173,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModItems.FLUORITE), has(ModItems.FLUORITE))
                         .group("fluorite")
                         .save(output);
+                shaped(RecipeCategory.MISC, ModItems.FLUORITE_HORSE_ARMOR)
+                        .pattern(" SF")
+                        .pattern("FFF")
+                        .define('F', ModItems.FLUORITE)
+                        .define('S', Items.SADDLE)
+                        .unlockedBy(getHasName(ModItems.FLUORITE), has(ModItems.FLUORITE))
+                        .unlockedBy(getHasName(Items.SADDLE), has(Items.SADDLE))
+                        .group("fluorite")
+                        .save(output);
             }
         };
     }

@@ -14,5 +14,5 @@ import net.nikitosikuska.firstmod.tags.ModTags;
 public class ModArmorMaterials {
     public static final ResourceKey<? extends Registry<EquipmentAsset>> REGISTRY_KEY = ResourceKey.createRegistryKey(Identifier.withDefaultNamespace("equipment_asset"));
     public static final ResourceKey<EquipmentAsset> FLUORITE_KEY = ResourceKey.create(REGISTRY_KEY, Identifier.fromNamespaceAndPath(FirstMod.MOD_ID, "fluorite"));
-    public static final ArmorMaterial FLUORITE_ARMOR_MATERIAL = new ArmorMaterial(750, ArmorMaterials.makeDefense(2, 5, 7, 3, 10), 12, SoundEvents.ARMOR_EQUIP_CHAIN, 1.0f, 0.0f, ModTags.Items.FLUORITE_REPAIR, FLUORITE_KEY);
+    public static final ArmorMaterial FLUORITE_ARMOR_MATERIAL = new ArmorMaterial(750, ArmorMaterials.makeDefense(2, 5, 7, 3, 9), 12, SoundEvents.ARMOR_EQUIP_CHAIN, 1.0f, 0.0f, ModTags.Items.FLUORITE_REPAIR, FLUORITE_KEY);
 }
