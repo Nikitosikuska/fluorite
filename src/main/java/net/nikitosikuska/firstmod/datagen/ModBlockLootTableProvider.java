@@ -53,6 +53,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         add(ModBlocks.RAW_FLUORITE_SLAB, this::createSlabItemTable);
         dropSelf(ModBlocks.RAW_FLUORITE_STAIRS);
         dropSelf(ModBlocks.RAW_FLUORITE_WALL);
+        dropSelf(ModBlocks.FLUORITE_LAMP);
 
         this.add(
                 ModBlocks.STRAWBERRY_BUSH,

@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 import net.nikitosikuska.firstmod.FirstMod;
+import net.nikitosikuska.firstmod.block.custom.FluoriteLampBlock;
 import net.nikitosikuska.firstmod.block.custom.StrawberryBushBlock;
 
 import java.util.function.Function;
@@ -153,7 +154,13 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST))
     );
-
+    public static final Block FLUORITE_LAMP = registerBlock("fluorite_lamp",
+            properties -> new FluoriteLampBlock(properties
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(FluoriteLampBlock.CLICKED) ? 15 : 0)
+                    .sound(SoundType.AMETHYST))
+    );
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {
         Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(FirstMod.MOD_ID, name))));
         registerBlockItem(name, toRegister);

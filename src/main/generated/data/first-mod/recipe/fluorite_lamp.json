@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "fluorite",
+  "key": {
+    "E": "minecraft:lever",
+    "F": "first-mod:fluorite",
+    "L": "minecraft:redstone_lamp",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "FRF",
+    "RLR",
+    "FEF"
+  ],
+  "result": {
+    "id": "first-mod:fluorite_lamp"
+  }
+}
