@@ -1,17 +1,3 @@
+Fixed bug with mod icon.
 Added:
--Raw Fluorite Stairs
--Raw Fluorite Slab
--Raw Fluorite Wall
--crafting blocks from Block of Fluorite and Block of Raw Fluorite in stonecutter
--fluorite tools:
-  -sword
-  -pickaxe
-  -axe
-  -shovel
-  -hoe
-  -spear
--fluorite armor:
-  -helmet
-  -chestplate
-  -leggings
-  -boots
+-fluorite lamp that uses right click to activate without any source of power but craft uses 4 fluorite, 3 redstone, redstone lamp and lever
