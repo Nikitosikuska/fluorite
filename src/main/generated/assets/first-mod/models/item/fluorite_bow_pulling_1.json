@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "first-mod:item/fluorite_bow_pulling_1"
+  }
+}

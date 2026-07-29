@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "fluorite",
+  "key": {
+    "F": "first-mod:fluorite",
+    "S": "minecraft:string",
+    "T": "minecraft:stick"
+  },
+  "pattern": [
+    " FS",
+    "T S",
+    " FS"
+  ],
+  "result": {
+    "id": "first-mod:fluorite_bow"
+  }
+}

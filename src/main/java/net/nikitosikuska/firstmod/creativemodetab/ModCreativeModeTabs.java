@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
             output.accept(ModItems.FLUORITE_SHOVEL);
             output.accept(ModItems.FLUORITE_AXE);
             output.accept(ModItems.FLUORITE_HOE);
+            output.accept(ModItems.FLUORITE_BOW);
             output.accept(ModItems.FLUORITE_SPEAR);
             output.accept(ModItems.FLUORITE_HELMET);
             output.accept(ModItems.FLUORITE_CHESTPLATE);

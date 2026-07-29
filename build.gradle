@@ -67,7 +67,8 @@ tasks.register('publishCurseForge', TaskPublishCurseForge) {
 	apiToken = System.getenv("CURSEFORGE_TOKEN")
 
 	def mainFile = upload(1592449, tasks.jar)
-	mainFile.changelog = file('CHANGELOG.md').text	mainFile.releaseType = 'release'
+	mainFile.changelog = file('CHANGELOG.md').text
+	mainFile.releaseType = 'release'
 	mainFile.addGameVersion('Fabric')
 	mainFile.addGameVersion('26.2')
 	mainFile.displayName = "Fluorite Ores Fabric v${project.version}"

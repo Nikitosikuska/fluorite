@@ -30,6 +30,7 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
         tag(ItemTags.LEG_ARMOR).add(BuiltInRegistries.ITEM.getResourceKey(ModItems.FLUORITE_LEGGINGS).orElseThrow());
         tag(ItemTags.FOOT_ARMOR).add(BuiltInRegistries.ITEM.getResourceKey(ModItems.FLUORITE_BOOTS).orElseThrow());
         tag(ModTags.Items.FLUORITE_REPAIR).add(BuiltInRegistries.ITEM.getResourceKey(ModItems.FLUORITE).orElseThrow());
+        tag(ItemTags.BOW_ENCHANTABLE).add(BuiltInRegistries.ITEM.getResourceKey(ModItems.FLUORITE_BOW).orElseThrow());
     }
 
 

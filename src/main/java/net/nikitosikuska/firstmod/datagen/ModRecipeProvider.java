@@ -194,6 +194,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(Items.REDSTONE), has(Items.REDSTONE))
                         .group("fluorite")
                         .save(output);
+                shaped(RecipeCategory.COMBAT, ModItems.FLUORITE_BOW)
+                        .pattern(" FS")
+                        .pattern("T S")
+                        .pattern(" FS")
+                        .define('F', ModItems.FLUORITE)
+                        .define('S', Items.STRING)
+                        .define('T', Items.STICK)
+                        .unlockedBy(getHasName(ModItems.FLUORITE), has(ModItems.FLUORITE))
+                        .unlockedBy(getHasName(Items.STRING), has(Items.STRING))
+                        .group("fluorite")
+                        .save(output);
             }
         };
     }
