@@ -1,2 +1,2 @@
 Added:
-  -fluorite bow that has more durability
+  -custom stat for fluorite ore breaks

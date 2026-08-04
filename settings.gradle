@@ -10,4 +10,4 @@ pluginManagement {
 }
 
 // Should match your modid
-rootProject.name = 'first-mod'
+rootProject.name = 'fluorite-ores'

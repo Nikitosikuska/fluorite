@@ -35,5 +35,6 @@
   "item.first-mod.fluorite_boots": "Fluorytowe buty",
   "item.first-mod.fluorite_horse_armor": "Flurytowa końska zbroja",
   "block.first-mod.fluorite_lamp": "Fluorytowa lampa",
-  "item.first-mod.fluorite_bow": "Fluorytowy łuk"
+  "item.first-mod.fluorite_bow": "Fluorytowy łuk",
+  "stat.first-mod.broken_fluorite_ore": "Wydobyto rudę fluorytu"
 }

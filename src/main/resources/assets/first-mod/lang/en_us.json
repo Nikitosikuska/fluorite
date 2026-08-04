@@ -35,5 +35,6 @@
   "item.first-mod.fluorite_boots": "Fluorite Boots",
   "item.first-mod.fluorite_horse_armor": "Fluorite Horse Armor",
   "block.first-mod.fluorite_lamp": "Fluorite Lamp",
-  "item.first-mod.fluorite_bow": "Fluorite Bow"
+  "item.first-mod.fluorite_bow": "Fluorite Bow",
+  "stat.first-mod.broken_fluorite_ore": "Broken Fluorite Ore"
 }
